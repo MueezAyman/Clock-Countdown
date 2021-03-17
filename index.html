@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clock and Countdown</title>
+</head>
+<body>
+    <div class="bg-video-container">
+        <video src="video/bg.mp4" class="bg-video" autoplay muted loop></video>
+    </div>
+    <div class="clock">
+        <div class="clock-face">
+            <h1 class="clock-heading">Clock</h1>
+            <div class="clock-hands">
+                <div class="clock-hand clock-hours"></div>
+                <div class="clock-hand clock-minutes"></div>
+                <div class="clock-hand clock-seconds"></div>
+            </div>
+            <div class="countdown">
+                <h2 class="countdown-heading">Time Left</h2>
+                <div class="countdown-body">
+                    <div class="countdown-days">10</div>:
+                    <div class="countdown-hours">30</div>:
+                    <div class="countdown-minutes">25</div>:
+                    <div class="countdown-seconds">50</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
